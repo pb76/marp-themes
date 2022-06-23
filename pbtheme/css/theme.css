@@ -1,0 +1,160 @@
+/* @theme pbtheme */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@477&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css");
+@import-theme "default";
+section {
+  font-family: "Montserrat", sans-serif;
+  /* Atom One Light */
+}
+section:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #00ac8d;
+  height: 8px;
+  display: block;
+  width: 100%;
+  content: "";
+}
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+  font-family: "Sora", sans-serif;
+}
+section h1 {
+  color: #00ac8d;
+}
+section header {
+  font-size: 20px;
+}
+section.center * {
+  text-align: center;
+}
+section.lead {
+  background-color: #00ac8d;
+  color: white;
+}
+section.lead * {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+section.lead header,
+section.lead footer {
+  display: none;
+}
+section.lead::after {
+  color: white;
+}
+section.first {
+  background-size: 525px;
+  background-repeat: no-repeat;
+  background-position: 123% center;
+}
+section.first h1 {
+  max-width: 85%;
+}
+section.first h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+section.first header {
+  font-size: 0;
+  height: 70px;
+  width: 300px;
+}
+section.first:after {
+  display: none;
+}
+section.cols ul,
+section.cols ol {
+  display: grid;
+  grid: auto/1fr 1fr;
+  grid-gap: 0.25rem 3rem;
+}
+section.cols ul li,
+section.cols ol li {
+  margin: 0 !important;
+}
+section .hljs {
+  color: #383a42;
+  background: #fafafa;
+}
+section .hljs-comment,
+section .hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+section .hljs-doctag,
+section .hljs-keyword,
+section .hljs-formula {
+  color: #a626a4;
+}
+section .hljs-section,
+section .hljs-name,
+section .hljs-selector-tag,
+section .hljs-deletion,
+section .hljs-subst {
+  color: #e45649;
+}
+section .hljs-literal {
+  color: #0184bb;
+}
+section .hljs-string,
+section .hljs-regexp,
+section .hljs-addition,
+section .hljs-attribute,
+section .hljs-meta .hljs-string {
+  color: #50a14f;
+}
+section .hljs-attr,
+section .hljs-variable,
+section .hljs-template-variable,
+section .hljs-type,
+section .hljs-selector-class,
+section .hljs-selector-attr,
+section .hljs-selector-pseudo,
+section .hljs-number {
+  color: #986801;
+}
+section .hljs-symbol,
+section .hljs-bullet,
+section .hljs-link,
+section .hljs-meta,
+section .hljs-selector-id,
+section .hljs-title {
+  color: #4078f2;
+}
+section .hljs-built_in,
+section .hljs-title.class_,
+section .hljs-class .hljs-title {
+  color: #c18401;
+}
+section .hljs-emphasis {
+  font-style: italic;
+}
+section .hljs-strong {
+  font-weight: bold;
+}
+section .hljs-link {
+  text-decoration: underline;
+}
+section img.emoji {
+  display: inline-block;
+}
+section .katex * {
+  border-color: black;
+}
+section ul {
+  list-style: disc;
+}
+section ol {
+  list-style: decimal;
+}
+section ol ol {
+  list-style: lower-alpha !important;
+}/*# sourceMappingURL=theme.css.map */
